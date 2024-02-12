@@ -1,0 +1,15 @@
+resolver: lts-21.25
+
+nix:
+  pure: false
+
+packages:
+- .
+
+extra-deps: []
+flags: {}
+extra-package-dbs: []
+
+# `PATH` の中の `ghc` を使う:
+system-ghc: true
+

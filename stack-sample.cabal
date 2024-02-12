@@ -1,0 +1,75 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           stack-sample
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/stack-sample#readme>
+homepage:       https://github.com/githubuser/stack-sample#readme
+bug-reports:    https://github.com/githubuser/stack-sample/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2023 Author name here
+license:        BSD-3-Clause
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/stack-sample
+
+executable a-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_stack_sample
+  autogen-modules:
+      Paths_stack_sample
+  hs-source-dirs:
+      a
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+  default-language: GHC2021
+
+executable b-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_stack_sample
+  autogen-modules:
+      Paths_stack_sample
+  hs-source-dirs:
+      b
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+  default-language: GHC2021
+
+executable c-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_stack_sample
+  autogen-modules:
+      Paths_stack_sample
+  hs-source-dirs:
+      c
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+  default-language: GHC2021
+
+executable d-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_stack_sample
+  autogen-modules:
+      Paths_stack_sample
+  hs-source-dirs:
+      d
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+  default-language: GHC2021
