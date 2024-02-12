@@ -24,3 +24,9 @@ $ ./a/Main.hs
 $ stack run a-exe
 ```
 
+
+```
+oj t -c "stack Main.hs"
+
+acc submit Main.hs
+```
